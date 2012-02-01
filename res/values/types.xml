@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="types_array">
+        <item>Тягачи</item>
+        <item>Полноприводные</item>
+        <item>Бортовые</item>
+        <item>Самосвалы</item>
+        <item>Шасси</item>
+    </string-array>
+
+</resources>

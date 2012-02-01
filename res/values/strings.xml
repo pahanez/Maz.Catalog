@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="spinner_hello">Выберите тип грузовой техники</string>
+    <string name="app_name">Maz</string>
+
+    <string name="details">Детали</string>
+    <string name="bus231mod">МАЗ-231</string>
+    <string name="bus241mod">МАЗ-241</string>
+    <string name="bus205mod">МАЗ-205</string>
+    <string name="bus103mod">МАЗ-103</string>
+    <string name="bus256mod">МАЗ-256</string>
+    <string name="bus251mod">МАЗ-251</string>
+    <string name="bus226mod">МАЗ-226</string>
+    <string name="bus203mod">МАЗ-203</string>
+    <string name="bus206mod">МАЗ-206</string>
+    <string name="bus171mod">МАЗ-171</string>
+    <string name="bus152mod">МАЗ-152\n152A</string>
+    <string name="bus107mod">МАЗ-107</string>
+    <string name="bus105mod">МАЗ-105</string>
+    
+    <string name="truck1">Тягачи</string>
+    <string name="truck2">Полноприводные</string>
+    <string name="truck3">Бортовые</string>
+    <string name="truck4">Самосвалы</string>
+    <string name="truck5">Шасси</string>
+    
+    <string name="heavy45729amod">КС-45729A-0-01</string>
+    <string name="heavy55727mod">КС-55727-1-11</string>
+    
+    <string name="trailer9758003010mod">МАЗ-975800-\n3010,3012</string>
+    <string name="trailer9758003014mod">МАЗ-975800-\n3014,3016</string>
+
+
+
+</resources>

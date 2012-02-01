@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MazTheme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@color/bgColor</item>
+        <item name="android:textColor">@color/txtColor</item>
+    </style>
+
+    <style name="bgLinear" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/txtColor</item>
+    </style>
+
+    <style name="bgDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/txtColor</item>
+        <item name="android:background">@color/bgColor</item>
+    </style>
+
+    <style name="abLinear" parent="@style/Theme.Sherlock.Light">
+        <item name="abBackground">@drawable/abbackgray</item>
+        <item name="abIcon">@drawable/ablogomaz</item>
+        <item name="abTitle">ОАО «Минский автомобильный завод»</item>
+        <item name="abSubtitle">Каталог продукции предприятия</item>
+        <item name="android:textColor">@color/txtColor</item>
+        <item name="homeAsUpIndicator">@drawable/home</item>
+        <item name="actionBarTabStyle">@style/abTabStyle</item>
+        selectableItemBackground</style>
+
+    <style name="abTabStyle" parent="@style/Widget.Sherlock.ActionBar.TabView">
+        <item name="android:background">@drawable/abs__tab_indicator_holo</item>
+    </style>
+
+    <style name="bgDetails" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/txtColor</item>
+        <item name="android:background">@color/bgColor</item>
+    </style>
+
+</resources>

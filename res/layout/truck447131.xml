@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/truck4471b" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="МАЗ-447131.\nПредназначены для перевозки различных грузов в составе автопоезда" />
+
+            <Button
+                android:id="@+id/bTruck447131zakaz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Оставить заявку" />
+
+            <ImageView
+                android:id="@+id/imageBorder0"
+                android:layout_width="match_parent"
+                android:layout_height="3dip"
+                android:background="@color/bgColor1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="ТЕХНИЧЕСКАЯ ХАРАКТЕРИСТИКА" />
+
+            <ImageView
+                android:id="@+id/imageBorder0"
+                android:layout_width="match_parent"
+                android:layout_height="3dip"
+                android:background="@color/bgColor1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Модель двигателя:" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Deutz BF 4M 1013 FC Code 140" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageBorder1"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/bgColor1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Мощность двигателя, кВт/л.с.:" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="140 (190)" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageBorder1"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/bgColor1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Коробка передач (число передач):" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ZF 6S-850" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageBorder1"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/bgColor1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Размер шин:" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="235/75 R-17,5" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageBorder1"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/bgColor1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Тип кабины:" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2-х местная со спальным местом" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageBorder1"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/bgColor1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Высота ССУ, мм:" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="950" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageBorder1"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/bgColor1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Тип задней подвески:" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Пневматическая" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageBorder1"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/bgColor1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Объем топливного бака, л.:" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="200" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageBorder1"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/bgColor1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Дополнительное оборудование:" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="бортовая система контроля и диагностики (бортовой компьютер), с функциями контроля осевой нагрузки и расхода топлива, электронная система контрля давления в шинах, электроуправляемые зеркала, стеклоподъемники.ё)" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageBorder0"
+                android:layout_width="match_parent"
+                android:layout_height="3dip"
+                android:background="@color/bgColor1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="РАСПРЕДЕЛЕНИЕ МАССЫ И НАГРУЗОК" />
+
+            <ImageView
+                android:id="@+id/imageBorder0"
+                android:layout_width="match_parent"
+                android:layout_height="3dip"
+                android:background="@color/bgColor1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="На передний мост, кг:" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3800" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageBorder1"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/bgColor1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="На заднюю тележку, кг:" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6200" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageBorder1"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/bgColor1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Технически допустимая полная масса автопоезда, кг:" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="21000" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageBorder1"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/bgColor1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Технически допустимая полная масса автомобиля, кг:" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10000" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageBorder1"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/bgColor1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Допустимая нагрузка на ССУ, кг:" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5500" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageBorder1"
+                android:layout_width="match_parent"
+                android:layout_height="3dip"
+                android:background="@color/bgColor1" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
