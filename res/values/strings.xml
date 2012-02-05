@@ -2,7 +2,7 @@
 <resources>
 
     <string name="spinner_hello">Выберите тип грузовой техники</string>
-    <string name="app_name">Maz</string>
+    <string name="app_name">МАЗ</string>
     <string name="bus231mod">МАЗ-231</string>
     <string name="bus241mod">МАЗ-241</string>
     <string name="bus205mod">МАЗ-205</string>

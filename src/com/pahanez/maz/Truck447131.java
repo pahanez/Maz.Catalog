@@ -9,8 +9,9 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class Truck447131 extends FragmentActivity implements OnClickListener  {
+public class Truck447131 extends FragmentActivity implements OnClickListener {
 	Button b;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -19,14 +20,16 @@ public class Truck447131 extends FragmentActivity implements OnClickListener  {
 		setContentView(R.layout.truck447131);
 		b = (Button) findViewById(R.id.bTruck447131zakaz);
 		b.setOnClickListener(this);
-		
+
 	}
+
 	@Override
 	public void onClick(View v) {
-		Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://maz.by/products/cargo_vehicle/tagachi/1320/"));
-		
+		Intent browserIntent = new Intent(Intent.ACTION_VIEW,
+				Uri.parse("http://maz.by/products/cargo_vehicle/tagachi/1320/"));
+
 		startActivity(browserIntent);
-		
+
 	}
-	
+
 }
