@@ -3,8 +3,6 @@
 
     <string name="spinner_hello">Выберите тип грузовой техники</string>
     <string name="app_name">Maz</string>
-
-    <string name="details">Детали</string>
     <string name="bus231mod">МАЗ-231</string>
     <string name="bus241mod">МАЗ-241</string>
     <string name="bus205mod">МАЗ-205</string>
@@ -18,19 +16,61 @@
     <string name="bus152mod">МАЗ-152\n152A</string>
     <string name="bus107mod">МАЗ-107</string>
     <string name="bus105mod">МАЗ-105</string>
-    
-    <string name="truck1">Тягачи</string>
+    <string name="truckT447131">МАЗ-447131</string>
+    <string name="truckT6430a5">МАЗ-6430A5</string>
+    <string name="truckT6430a8">МАЗ-6430A(8,9,18)</string>
+    <string name="truckT5440a5">МАЗ-5440А5</string>
+    <string name="truckT5440a8919">МАЗ-5440А(8,9,19)E9</string>
+    <string name="truckT5433">МАЗ-5433</string>
+    <string name="truckF6517">МАЗ-6517</string>
+    <string name="truckF6425">МАЗ-6425</string>
+    <string name="truckF6317a">МАЗ-6317(05,08)</string>
+    <string name="truckF6317b">МАЗ-6317(08,09)</string>
+    <string name="truckF6425a">МАЗ-6425(05,08)</string>
+    <string name="truckF5309">МАЗ-5309</string>
+    <string name="truckDS5340a8">МАЗ-5340A8</string>
+    <string name="truckDS4370">МАЗ-4370</string>
+    <string name="truckDS4371">МАЗ-4371</string>
+    <string name="truckDS5340a3">МАЗ-5340A3</string>
+    <string name="truckDS6310">МАЗ-6310</string>
+    <string name="truckDS6312a5">МАЗ-6312А5</string>
+    <string name="truckD6516">МАЗ-6516</string>
+    <string name="truckD6501">МАЗ-6501</string>
+    <string name="truckD5551">МАЗ-5551</string>
+    <string name="truckD5516">МАЗ-5516</string>
+    <string name="truckD4570">МАЗ-4570</string>
+    <string name="truckD5516a8">МАЗ-5516A8</string>
+    <string name="truckSH6516">МАЗ-6516</string>
+    <string name="truckSH6312">МАЗ-6312</string>
+    <string name="truckSH6310">МАЗ-6310</string>
+    <string name="truckSH6303">МАЗ-6303</string>
+    <string name="truckSH5551">МАЗ-5551</string>
+    <string name="truckSH5516">МАЗ-5516</string>
+    <string name="truck1">Мощность двигателя ,кВт/л.с.:</string>
     <string name="truck2">Полноприводные</string>
     <string name="truck3">Бортовые</string>
     <string name="truck4">Самосвалы</string>
     <string name="truck5">Шасси</string>
-    
     <string name="heavy45729amod">КС-45729A-0-01</string>
     <string name="heavy55727mod">КС-55727-1-11</string>
-    
     <string name="trailer9758003010mod">МАЗ-975800-\n3010,3012</string>
     <string name="trailer9758003014mod">МАЗ-975800-\n3014,3016</string>
+    <string name="details">Детали</string>
+    <string name="aboutFull">«МАЗ» — это брэнд, завоевавший признание своей продукции не только в Беларуси, но и далеко за ее пределами. \n\n
 
+Продукция Минского автомобильного завода – это техника, соответствующая экологическим стандартам Евро-3, Евро-4, Евро-5.  \n\n
 
+Под маркой «МАЗ» с конвейера завода сходят седельные тягачи, бортовые автомобили, шасси под установку различного спецоборудования. Всего боле 500 моделей и модификаций. \n\n
+
+С 1995 года Минский автомобильный завод выпускает пассажирскую технику. Городские, междугородние, туристические и специальные автобусы успешно работают на различных маршрутах по всему миру. За свой дизайн, функциональность, качество и надежность они неоднократно были удостоены высоких наград на международных автомобильных салонах и специализированных выставках. Сегодня пассажирская техника МАЗ представлена 15 моделями в более чем ста исполнениях.\n\n 
+
+Автомобили МАЗ – это смелое воплощение новаторских конструкторских идей, реализованных в технике высокого качества 
+Современный дизайн в совокупности с высокими техническими характеристиками позволяет технике МАЗ занимать стабильную позицию на международном рынке автотехники, конкурируя с мировыми производителями. \n\n
+
+Особо важная роль в производственном процессе отводится повышению уровня качества выпускаемой продукции. С этой целью постоянно ведется работа по техническому перевооружению. \n\n 
+
+Над качеством техники МАЗ изо дня в день работает многотысячный коллектив высококвалифицированных профессионалов. Каждое звено производственного процесса тщательно продумано и направлено на достижение максимального результата. \n\n 
+
+За свою историю Минский автомобильный завод прошел много испытаний, претерпел большие перемены, но сумел сохранить традицию стремиться к совершенству, создавая надежную и качественную технику для жизни.</string>
 
 </resources>

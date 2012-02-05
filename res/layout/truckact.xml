@@ -29,10 +29,156 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:gravity="center"
-                    android:text="МАЗ-447131" />
+                    android:text="@string/truckT447131" />
 
                 <Button
-                    android:id="@+id/bTruck4471det"
+                    android:id="@+id/bTruck4471details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/details" />
+            </TableRow>
+                        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@drawable/truck6430a5s" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/truckT6430a5" />
+
+                <Button
+                    android:id="@+id/bTruck6430a5details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/details" />
+            </TableRow>
+                                  <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@drawable/truck6430a8s" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/truckT6430a8" />
+
+                <Button
+                    android:id="@+id/bTruck6430a8details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/details" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@drawable/truck5440a5s" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/truckT5440a5" />
+
+                <Button
+                    android:id="@+id/bTruck5440a5details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/details" />
+            </TableRow>
+            
+                   <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@drawable/truck5440a8a919es" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/truckT5440a8919" />
+
+                <Button
+                    android:id="@+id/bTruck5440a8919details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/details" />
+            </TableRow>
+                 <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@drawable/truck5433" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/truckT5433" />
+
+                <Button
+                    android:id="@+id/bTruck5433details"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"

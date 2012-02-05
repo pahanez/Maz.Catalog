@@ -25,6 +25,7 @@
         <item name="abSubtitle">Каталог продукции предприятия</item>
         <item name="android:textColor">@color/txtColor</item>
         <item name="homeAsUpIndicator">@drawable/home</item>
+        
         <item name="actionBarTabStyle">@style/abTabStyle</item>
         selectableItemBackground</style>
 
@@ -32,10 +33,16 @@
         <item name="android:background">@drawable/abs__tab_indicator_holo</item>
     </style>
 
-    <style name="bgDetails" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+    <style name="bgDetails" parent="@android:style/Theme.Dialog">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/txtColor</item>
         <item name="android:background">@color/bgColor</item>
+    </style>
+    
+       <style name="About" parent="@android:style/Theme.Dialog">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/txtColor</item>
+        <item name="android:background">@color/bgColorTransparent</item>
     </style>
 
 </resources>

@@ -15,36 +15,6 @@ public class MazActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
       final Intent i = new Intent(this, MainMaz.class);
-
-//        image = (ImageView) findViewById(R.id.imageLogo);
-//    
-//        anim = AnimationUtils.loadAnimation(this, R.anim.myalpha);
-//        final Intent i = new Intent(this, MainMaz.class);
-//        anim.setAnimationListener(new AnimationListener() {
-//			
-//			@Override
-//			public void onAnimationStart(Animation animation) {
-//				// TODO Auto-generated method stub
-//				
-//			}
-//			
-//			@Override
-//			public void onAnimationRepeat(Animation animation) {
-//				// TODO Auto-generated method stub
-//				
-//			}
-//			
-//			@Override
-//			public void onAnimationEnd(Animation animation) {
-//				// TODO Auto-generated method stub
-//				startActivity(i);
-//			}
-//		});
-//        image.startAnimation(anim);
-        
-        
-       
-
 		Thread timer = new Thread(){
 		public void run(){
 			try{
@@ -52,8 +22,9 @@ public class MazActivity extends FragmentActivity {
 			}catch(InterruptedException e){
 				e.printStackTrace();
 			}finally{
-				finish();
+				
 				startActivity(i);
+				finish();
 			}
 		}	
 		};

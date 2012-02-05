@@ -1,13 +1,18 @@
 package com.pahanez.maz;
 
+import android.R.anim;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.ActionBar;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.Menu;
 import android.support.v4.view.MenuItem;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
+import android.view.MenuInflater;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
+import android.widget.Toast;
 
 public class MainMaz extends FragmentActivity {
 	TabHost th;
@@ -21,9 +26,8 @@ public class MainMaz extends FragmentActivity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.tabspager);
-		
 
-		ActionBar ab = getSupportActionBar();
+		
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 		getSupportActionBar().setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
@@ -45,29 +49,32 @@ public class MainMaz extends FragmentActivity {
 		mTabsAdapter.addTab(tab2, BusFragment.class);
 		mTabsAdapter.addTab(tab3, TrailerFragment.class);
 		mTabsAdapter.addTab(tab4, HeavyFragment.class);
-		
-		
-	
 
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		/*
-		 * menu.add("Text") .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS |
-		 * MenuItem.SHOW_AS_ACTION_WITH_TEXT);
-		 */
-		menu.add("")
-				.setIcon(R.drawable.about)
-				.setShowAsAction(
-						MenuItem.SHOW_AS_ACTION_ALWAYS
-								| MenuItem.SHOW_AS_ACTION_WITH_TEXT);
-
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.menulist, menu);
 		return super.onCreateOptionsMenu(menu);
 	}
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// TODO Auto-generated method stub
+		 switch (item.getItemId()) {
+	        case R.id.about:
+	            Intent i = new Intent(this, About.class);
+	            startActivity(i);
+	            
+	            break; 
+	        case android.R.id.home:
+	        	
+	        	recreate();
+	        	break;
+	    }
 
-
-
-
+		 return super.onOptionsItemSelected(item);
+		
+	}
 
 }

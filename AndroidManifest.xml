@@ -9,7 +9,9 @@
     <application
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/abLinear" >
+        android:theme="@style/abLinear"
+        
+         >
         <activity
             android:name=".MazActivity"
             android:label="@string/app_name"
@@ -22,8 +24,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainMaz" />
+        <activity android:name=".About" android:theme="@style/About"/>
         <activity android:name=".TruckAct" android:theme="@style/bgDialog"/>
         <activity android:name=".Truck447131" android:theme="@style/bgDetails"/>
+        <activity android:name=".Truck6430a5" android:theme="@style/bgDetails"/>
+         <activity android:name=".Truck6517" android:theme="@style/bgDetails"/>
         
        
     </application>

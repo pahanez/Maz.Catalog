@@ -2,6 +2,7 @@
 <resources>
 
     <color name="bgColor">#FFDEDDEB</color>
+     <color name="bgColorTransparent">#B2DEDDEB</color>
     <color name="bgColor1">#FF808080</color>
     <color name="bgColor2">#80808080</color>
     <color name="txtColor">#FF5F6269</color>
